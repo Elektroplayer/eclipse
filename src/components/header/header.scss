@@ -1,0 +1,43 @@
+.header{
+    &_layout{
+        margin: 0 70px 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo{
+    display: flex;
+    align-items: center;
+    &_title{
+        font-family: Work Sans;
+        font-weight: bold;
+        font-size: 36px;
+        color: #fff;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    &_img{
+        width: 73,78px;
+        height: 70px;
+        cursor: pointer;
+    }
+}
+.signIn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &_title{
+        font-family: Spartan;
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+        margin-left: 6px;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

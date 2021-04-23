@@ -1,0 +1,103 @@
+.footer{
+    &_layout{
+        background-color: #2A2A2A;
+        color: #fff;
+        width: 100%;
+        & hr{
+            color: #3E3F41;
+            border: 2px solid #3E3F41;
+        }
+    }
+    &_main{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 30px 60px 0px 60px;
+        &_eclipse{
+            &_logo{
+                display: flex;
+                align-items: center;
+                font-family: Work Sans;
+                font-size: 36px;
+                font-weight: 700;
+                & img{
+                    margin-right: 15px;
+                    width: 73,78px;
+                    height: 70px;
+                }
+            }
+            &_links{
+                & p{
+                    font-family: Work Sans;
+                    font-weight: 400;
+                    font-size: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+        &_tech{
+            &_title{
+                font-family: Work Sans;
+                font-size: 36px;
+                font-weight: 700;
+                margin-bottom: 15%;
+            }
+            &_links{
+                & p{
+                    font-family: Work Sans;
+                    font-weight: 400;
+                    font-size: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+        &_contacts{
+            &_title{
+                font-family: Work Sans;
+                font-size: 36px;
+                font-weight: 700;
+            }
+            &_icons{
+                display: flex;
+                justify-content: center;
+                & img{
+                    padding: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &_add{
+        padding-bottom: 61px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        & button{
+            color: #fff;
+            background-color: #7762D2;
+            border-radius: 5px;
+            width: 213px;
+            height: 67px;
+            font-family: Work Sans;
+            font-weight: 500;
+            font-size: 22px;
+            border: none;
+            cursor: pointer;
+            outline: none !important;
+        }
+    }
+    &_copyright{
+        padding-bottom: 40px;
+        color: #615C5C;
+        font-size: 18px;
+        font-family: Work Sans;
+        display: flex;
+        justify-content: center;
+    }
+}

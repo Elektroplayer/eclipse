@@ -1,0 +1,114 @@
+.donate{
+    &_layout{
+        background-color: #3E3F41;
+        display: 100%;
+    }
+    &_name{
+        position: absolute;
+        color: #fff;
+        font-size: 35px;
+        font-family: Work Sans;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        left: 10%;
+        top: -25%;
+    }
+    &_profit{
+        position: absolute;
+        color: #000;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 10%;
+        border-radius: 5px;
+        left: 10%;
+        top: -10%;
+    }
+    &_title{
+        font-size: 43px;
+        font-family: Work Sans;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 70px;
+        margin-bottom: 50px;
+    }
+    &_blocks{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 7% 0 7%;
+    }
+    &_blocks2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 7% 0 7%;
+        margin-top: 100px;
+        padding-bottom: 80px;
+    }
+    &_block{
+        font-family: Roboto;
+        position: relative;
+        width: 250px;
+        height: 430px;
+        background-color: #75D773;
+        border-radius: 10px;
+        color: #fff;
+        &_title{
+            font-size: 20px;
+            margin: 40px 0 0 20px;
+        }
+        &_price{
+            width: 100%;
+            display: flex;
+            & p{
+                font-weight: 500;
+                font-size: 35px;
+                margin: 0 0 0 10%;
+            }
+            & span{
+                font-weight: 400;
+                font-size: 23px;
+                margin: 0 0 0 10px;
+            }
+        }
+        &_text{
+            &_tick{
+                max-width: 100%;
+                display: flex;
+                margin: 0 15px 0 15px;
+                & img{
+                    width: 20px;
+                }
+                & p{
+                    font-size: 18px;
+                    margin-left: 15px;
+                }
+            }
+        }
+        &_btn{
+            position: absolute;
+            background-color: #75D773;
+            color: #fff;
+            font-weight: 500;
+            font-size: 19px;
+            padding: 1px;
+            font-family: Roboto;
+            border: 2px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            bottom: 5%;
+            left: 10%;
+            cursor: pointer;
+            text-decoration: none;
+            outline: none !important;
+        }
+    }
+}

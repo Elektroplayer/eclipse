@@ -1,0 +1,35 @@
+.whoIsI{
+    &_layout{
+        background-color: #2A2A2A;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    &_header{
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        color: #fff;
+        margin-top: 75px;
+        font-family: Work Sans;
+    }
+}
+.privateRooms{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.privateRooms{
+    &_content{
+        width: 40%;
+        color: #fff;
+        &_title{
+            font-size: xx-large;
+            color: #fff;
+        }
+        &_text{
+            color: #686464;
+            font-size: x-large;
+        }
+    }
+}
