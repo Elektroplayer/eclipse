@@ -1,7 +1,7 @@
 import React from "react"
 import "./header.scss"
 import logo from "./../../assets/header/logoEclipse.png"
-import signIn from "./../../assets/header/signIn.svg"
+import signIn from "./../../assets/header/signIn.png"
 
 const Header = () => {
     return(

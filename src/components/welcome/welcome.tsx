@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../header/header'
 import "./welcome.scss"
-import arrow from './../../assets/welcome/arrow.svg'
+import arrow from './../../assets/welcome/arrow.png'
 
 const Welcome = () => {
     return(
