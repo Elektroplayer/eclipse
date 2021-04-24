@@ -7,7 +7,8 @@
         position: absolute;
         color: #fff;
         font-size: 35px;
-        font-family: Work Sans;
+        // font-family: Work Sans-400;
+        font-weight: 400;
         width: 80%;
         display: flex;
         justify-content: center;
@@ -26,10 +27,13 @@
         border-radius: 5px;
         left: 10%;
         top: -10%;
+        font-family: Roboto-400;
+        font-size: 20px;
     }
     &_title{
-        font-size: 43px;
-        font-family: Work Sans;
+        font-size: 40px;
+        // font-family: Work Sans-400;
+        font-weight: 400;
         color: #fff;
         text-align: center;
         margin: 0;
@@ -51,38 +55,49 @@
         padding-bottom: 80px;
     }
     &_block{
-        font-family: Roboto;
+        opacity: 0;
+        animation: show 4s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 0.7s;
+
         position: relative;
-        width: 250px;
-        height: 430px;
+        width: 260px;
+        height: 450px;
         background-color: #75D773;
         border-radius: 10px;
         color: #fff;
+        padding: 7px;
         &_title{
-            font-size: 20px;
-            margin: 40px 0 0 20px;
+            font-family: Roboto-400;
+            font-weight: 400;
+            font-size: 22px;
+            margin: 30px 0 0 23px;
         }
         &_price{
             width: 100%;
             display: flex;
             & p{
+                font-family: Roboto-700;
                 font-weight: 500;
                 font-size: 35px;
                 margin: 0 0 0 10%;
             }
             & span{
-                font-weight: 400;
-                font-size: 23px;
-                margin: 0 0 0 10px;
+                font-family: Roboto-400;
+                font-weight: 300;
+                font-size: 21px;
+                margin: -5px 0 0 16px;
             }
         }
         &_text{
             &_tick{
+                font-family: Roboto-400;
                 max-width: 100%;
                 display: flex;
                 margin: 0 15px 0 15px;
                 & img{
                     width: 20px;
+                    margin: 5px;
                 }
                 & p{
                     font-size: 18px;
@@ -90,25 +105,34 @@
                 }
             }
         }
-        &_btn{
-            position: absolute;
-            background-color: #75D773;
-            color: #fff;
-            font-weight: 500;
-            font-size: 19px;
-            padding: 1px;
-            font-family: Roboto;
-            border: 2px solid #FFFFFF;
-            box-sizing: border-box;
-            border-radius: 7px;
-            display: flex;
-            justify-content: center;
-            width: 80%;
-            bottom: 5%;
-            left: 10%;
-            cursor: pointer;
-            text-decoration: none;
-            outline: none !important;
+        &_buy{
+            width: 100%;
+            &_btn{
+                position: absolute;
+                background-color: #75D773;
+                color: #fff;
+                font-weight: 500;
+                font-size: 19px;
+                padding: 1px;
+                font-family: Roboto-700;
+                border: 2.5px solid #FFFFFF;
+                box-sizing: border-box;
+                border-radius: 7px;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                width: 80%;
+                bottom: 5%;
+                left: 10%;
+                cursor: pointer;
+                text-decoration: none;
+                outline: none !important;
+                transition: all .3s;
+                &:hover{
+                    width: 95%;
+                    left: 2.5%;
+                }
+            }
         }
     }
 }

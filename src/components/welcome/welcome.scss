@@ -3,7 +3,6 @@
         width: 100%;
         margin: 0 auto;
         background: linear-gradient( -25deg, #2A2A2A, #2A2A2A 50%,#7762D2 50% );
-        font-family: Work Sans;
     }
     &_arrow{
         display: flex;
@@ -12,7 +11,7 @@
     }
 }
 .dsBackground{
-    background-image: url("./../../assets/dsBackground.svg");
+    background-image: url("./../../assets//welcome/dsBackground.svg");
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-repeat: no-repeat;
     background-size: contain;
@@ -21,6 +20,10 @@
 }
 .dsBg{
     &_text{
+        opacity: 0;
+        animation: show 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
         position: relative;
         width: 100%;
         height: 100%;
@@ -30,14 +33,17 @@
         flex-direction: column;
         color: #fff;
         &_welcome{
-            font-weight: normal;
-            font-size: 55px;
+            font-size: 40px;
         }
         &_description{
-            font-weight: normal;
             font-size: 36px;
             width: 829px;
             text-align: center;
+            & span{
+                color: #7762D2;
+                font-family: Work Sans-700;
+                font-weight: 700;
+            }
         }
         &_btn{
             width: 209px;
@@ -51,14 +57,28 @@
             cursor: pointer;
             text-decoration: none;
             outline: none !important;
+            transition: all .6s;
+            &:hover{
+                background-color: #36393F;
+                color: #7762D2;
+                border: 1px solid #7762D2;
+            }
         }
         &_pss{
             position: absolute;
             bottom: 0;
             color: #fff;
             font-size: 18px;
-            margin-bottom: 15px;
-            margin-left: 100px;
+            margin-bottom: 17px;
+            margin-left: 140px;
         }
+    }
+}
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }

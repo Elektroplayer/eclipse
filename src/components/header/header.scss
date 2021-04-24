@@ -1,18 +1,22 @@
 .header{
     &_layout{
-        margin: 0 70px 0 70px;
+        margin: 0 60px 20px 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        opacity: 0;
+        animation: show 3s 1;
+        animation-fill-mode: forwards;
+        animation-delay: 0.2s;
     }
 }
 .logo{
     display: flex;
     align-items: center;
+    font-family: Work Sans-700;
     &_title{
-        font-family: Work Sans;
-        font-weight: bold;
-        font-size: 36px;
+        font-weight: 700;
+        font-size: 38px;
         color: #fff;
         margin-left: 15px;
         cursor: pointer;
@@ -28,8 +32,8 @@
     align-items: center;
     cursor: pointer;
     &_title{
-        font-family: Spartan;
-        font-weight: bold;
+        // font-family: Spartan-700;
+        font-weight: 700;
         font-size: 24px;
         color: #fff;
         margin-left: 6px;

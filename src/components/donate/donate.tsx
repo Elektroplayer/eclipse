@@ -1,6 +1,6 @@
 import React from 'react'
 import './donate.scss'
-import tick from './../../assets/tick.svg'
+import tick from './../../assets/donate/tick.svg'
 
 const Donate = () => {
     const donateBlock = (
@@ -25,16 +25,18 @@ const Donate = () => {
                     <span>рублей</span>
                 </div>
                 <div className="donate_block_text">
-                    {content.map((i) => {
+                    {content.map((i, index) => {
                         return(
-                        <div className="donate_block_text_tick">
+                        <div key={index} className="donate_block_text_tick">
                             <img src={tick} alt="tick"/>
                             <p>{i}</p>
                         </div>
                         )
                     })}
                 </div>
-                <button className="donate_block_btn" style={{backgroundColor: color}}>Купить</button>
+                <div className="donate_block_buy">
+                    <button className="donate_block_buy_btn" style={{backgroundColor: color}}>Купить</button>
+                </div>
             </div>
         )
     }

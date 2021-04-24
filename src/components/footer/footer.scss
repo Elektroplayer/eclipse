@@ -17,18 +17,18 @@
             &_logo{
                 display: flex;
                 align-items: center;
-                font-family: Work Sans;
+                font-family: Work Sans-700;
                 font-size: 36px;
                 font-weight: 700;
                 & img{
                     margin-right: 15px;
                     width: 73,78px;
-                    height: 70px;
+                    height: 60px;
                 }
             }
             &_links{
                 & p{
-                    font-family: Work Sans;
+                    // font-family: Work Sans-400;
                     font-weight: 400;
                     font-size: 20px;
                     cursor: pointer;
@@ -40,28 +40,28 @@
         }
         &_tech{
             &_title{
-                font-family: Work Sans;
+                // font-family: Work Sans-700;
                 font-size: 36px;
-                font-weight: 700;
+                font-weight: 600;
                 margin-bottom: 15%;
             }
             &_links{
                 & p{
-                    font-family: Work Sans;
+                    // font-family: Work Sans-400;
                     font-weight: 400;
                     font-size: 20px;
                     cursor: pointer;
                     &:hover{
-                        text-decoration:underline;
+                        text-decoration: underline;
                     }
                 }
             }
         }
         &_contacts{
             &_title{
-                font-family: Work Sans;
+                // font-family: Work Sans-700;
                 font-size: 36px;
-                font-weight: 700;
+                font-weight: 600;
             }
             &_icons{
                 display: flex;
@@ -84,19 +84,27 @@
             border-radius: 5px;
             width: 213px;
             height: 67px;
-            font-family: Work Sans;
-            font-weight: 500;
+            // font-family: Work Sans-400;
+            font-weight: 400;
             font-size: 22px;
             border: none;
             cursor: pointer;
             outline: none !important;
+            transition: all .6s;
+            &:hover{
+                background-color:#0c0808;
+                color:#7762D2;
+                border: 2px solid #7762D2;
+                width: 232px;
+                height: 75px;
+            }
         }
     }
     &_copyright{
         padding-bottom: 40px;
         color: #615C5C;
         font-size: 18px;
-        font-family: Work Sans;
+        font-family: Work Sans-400;
         display: flex;
         justify-content: center;
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../header/header'
 import "./welcome.scss"
-import arrow from './../../assets/arrow.svg'
+import arrow from './../../assets/welcome/arrow.svg'
 
 const Welcome = () => {
     return(
@@ -11,7 +11,7 @@ const Welcome = () => {
                 <div className="dsBg_text">
                     <p className="dsBg_text_welcome">Добро пожаловать на тёмную сторону</p>
                     <div className="dsBg_text_description">
-                        Меня зовут <span style={{color: "#7762D2", fontWeight: 700}}>Eclipse!</span> Я создан для того, чтобы помочь вам в развитии вашего сервера
+                        Меня зовут <span>Eclipse!</span> Я создан для того, чтобы помочь вам в развитии вашего сервера
                     </div>
                     <button className="dsBg_text_btn">Добавить!</button>
                     <p className="dsBg_text_pss">Псс....чтобы узнать больше информации обо мне, листай вниз)</p>

@@ -1,10 +1,10 @@
 import React from 'react'
 import './whoIsI.scss'
-import privateRooms from './../../assets/PrivateRooms.svg'
-import privateCard from './../../assets/privateCard.svg'
-import newLevel from './../../assets/newLevel.svg'
-import virusChecked from './../../assets/VirusChecker.svg'
-import autoModer from './../../assets/autoModer.svg'
+import privateRooms from './../../assets/whoIsI/privateRooms.png'
+import privateCard from './../../assets/whoIsI/privateCard.png'
+import newLevel from './../../assets/whoIsI/newLevel.png'
+import virusChecked from './../../assets/whoIsI/virusChecker.png'
+import autoModer from './../../assets/whoIsI/autoModer.png'
 
 const WhoIsI = () => {
     const blockRoom = (
@@ -15,7 +15,7 @@ const WhoIsI = () => {
     ) => {
         return(
         <div className="privateRooms" style={{flexDirection: flexDirectionValue}}>
-            <img src={img} alt={`${img}`} style={{maxWidth: "30%"}}/>
+            <img src={img} alt={`${img}`}/>
             <div className="privateRooms_content">
                 <p className="privateRooms_content_title">{title}</p>
                 <p className="privateRooms_content_text">

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./footer.scss"
-import logo from "./../../assets/logoEclipse.svg"
-import email from './../../assets/email.svg'
-import discord from './../../assets/discord.svg'
+import logo from "./../../assets/header/logoEclipse.png"
+import email from './../../assets/footer/email.svg'
+import discord from './../../assets/footer/discord.svg'
 
 const Footer = () => {
     return(
