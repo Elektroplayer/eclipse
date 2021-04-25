@@ -45,6 +45,18 @@
         justify-content: space-between;
         align-items: center;
         margin: 0 7% 0 7%;
+        &_1 button:hover{
+            color: #75D773;
+            background-color: #fff;
+        }
+        &_2 button:hover{
+            color: #D77373;
+            background-color: #fff;
+        }
+        &_3 button:hover{
+            color: #D7C773;
+            background-color: #fff;
+        }
     }
     &_blocks2{
         display: flex;
@@ -53,6 +65,14 @@
         margin: 0 7% 0 7%;
         margin-top: 100px;
         padding-bottom: 80px;
+        &_4 button:hover{
+            color: #29B6F6;
+            background-color: #fff;
+        }
+        &_5 button:hover{
+            color: #5C6BC0;
+            background-color: #fff;
+        }
     }
     &_block{
         opacity: 0;
@@ -109,13 +129,13 @@
             width: 100%;
             &_btn{
                 position: absolute;
-                background-color: #75D773;
+                background: none;
                 color: #fff;
                 font-weight: 500;
                 font-size: 19px;
                 padding: 1px;
                 font-family: Roboto-700;
-                border: 2.5px solid #FFFFFF;
+                border: 2.5px solid #FFF;
                 box-sizing: border-box;
                 border-radius: 7px;
                 display: flex;
@@ -128,10 +148,6 @@
                 text-decoration: none;
                 outline: none !important;
                 transition: all .3s;
-                &:hover{
-                    width: 95%;
-                    left: 2.5%;
-                }
             }
         }
     }

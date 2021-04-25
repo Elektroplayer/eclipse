@@ -13,7 +13,7 @@ const Footer = () => {
                         <img src={logo} alt="logo"/>
                         <p className="footer_main_title">Eclipse</p>
                     </div>
-                    <div className="footer_main_eclipse_links">
+                    <div className="footer_main_links">
                         <p>Кастомизация</p>
                         <p>Модерация</p>
                         <p>Туториал</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <div className="footer_main_tech">
                     <p className="footer_main_tech_title">Технические вопросы</p>
-                    <div className="footer_main_tech_links">
+                    <div className="footer_main_links">
                         <p>Сервер поддержки</p>
                         <p>Условия использования</p>
                         <p>Политика конфиденциальности</p>
@@ -31,8 +31,8 @@ const Footer = () => {
                 <div className="footer_main_cotacts">
                     <p className="footer_main_contacts_title">Связь с нами</p>
                     <div className="footer_main_contacts_icons">
-                        <img src={email} alt="eamil"/>
-                        <img src={discord} alt="discord"/>
+                        <img onClick={() => alert("email")} src={email} alt="eamil"/>
+                        <img onClick={() => alert("discord")} src={discord} alt="discord"/>
                     </div>
                 </div>
             </div>
