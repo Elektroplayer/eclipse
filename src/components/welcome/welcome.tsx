@@ -7,7 +7,7 @@ const Welcome = () => {
     return(
         <div className="main_layout">
             <Header/>
-            <div className="dsBackground">
+            <div data-aos="fade-up" className="dsBackground">
                 <div className="dsBg_text">
                     <p className="dsBg_text_welcome">Добро пожаловать на тёмную сторону</p>
                     <div className="dsBg_text_description">

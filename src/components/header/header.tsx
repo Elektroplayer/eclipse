@@ -6,13 +6,13 @@ import signIn from "./../../assets/header/signIn.png"
 const Header = () => {
     return(
         <div className="header_layout">
-            <div className="logo">
+            <div data-aos="fade-up" className="logo">
                 <img className="logo_img" src={logo} alt="logo"/>
                 <p className="logo_title">Eclipse</p>
             </div>
-            <div className="signIn">
+            <div data-aos="fade-up" className="signIn">
                 <img src={signIn} alt="signIn"/>
-                <p className="signIn_title">Войти</p>
+                <p onClick={() => alert("Войти?")} className="signIn_title">Войти</p>
             </div>
         </div>
     )

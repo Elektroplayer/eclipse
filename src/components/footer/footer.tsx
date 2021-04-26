@@ -7,7 +7,7 @@ import discord from './../../assets/footer/discord.svg'
 const Footer = () => {
     return(
         <div className="footer_layout">
-            <div className="footer_main">
+            <div data-aos="fade-up" className="footer_main">
                 <div className="footer_main_eclipse">
                     <div className="footer_main_eclipse_logo">
                         <img src={logo} alt="logo"/>

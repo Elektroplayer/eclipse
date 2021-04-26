@@ -17,7 +17,7 @@ const Donate = () => {
         arrColors.push(color)
         return(
             <>
-            <div 
+            <div data-aos="fade-up"
                 className="donate_block" 
                 style={{backgroundColor: color, border: `${profit && "3px solid #FFFFFF"}`}}>
             {name && <p className="donate_name">{name}</p>}
@@ -57,7 +57,7 @@ const Donate = () => {
     }
     return(
         <div className="donate_layout">
-            <p className="donate_title">Получи больше возможностей с Premium!</p>
+            <p data-aos="fade-up" className="donate_title">Получи больше возможностей с Premium!</p>
             <div className="donate_blocks">
                 <p className="donate_blocks_1">
                     {donateBlock(1, "Custom Mini", "50", ["Добавление кастомной картинки в профиль", "Изменение цвета полоски рядом с профилем"], "#75D773", false)}
