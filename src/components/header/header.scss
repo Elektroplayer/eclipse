@@ -12,14 +12,18 @@
     font-family: Work Sans-700;
     &_title{
         font-weight: 700;
-        font-size: 30px;
+        // font-size: 30px;
+        font-size: 2.2vw;
         color: #fff;
-        margin-left: 15px;
+        // margin-left: 15px;
+        margin-left: 9%;
         cursor: pointer;
     }
     &_img{
-        width: 63,78px;
-        height: 60px;
+        // width: 63,78px;
+        width: 5vw;   
+        // height: 60px;
+        height: 5vw;
         cursor: pointer;
     }
 }
@@ -27,12 +31,17 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    & img{
+        width: 2.5vw;
+    }
     &_title{
         // font-family: Spartan-700;
         font-weight: 700;
-        font-size: 24px;
+        // font-size: 24px;
+        font-size: 1.8vw;
         color: #fff;
-        margin-left: 6px;
+        // margin-left: 6px;
+        margin-left: 5%;
         display: flex;
         align-items: flex-end;
         text-transform: uppercase;
@@ -43,7 +52,8 @@
             position: absolute;
             width: 100%;
             transform: scaleX(0);
-            height: 2px;
+            // height: 2px;
+            height: 0.15vw;
             bottom: 0;
             left: 0;
             background-color: #FBFDFF;

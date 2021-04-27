@@ -7,7 +7,11 @@
     &_arrow{
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        // margin-top: 40px;
+        margin-top: 2.9vw;
+        & img{
+            height: 2.5vw;
+        }
         animation: arrow-animation 2.5s ease-in-out infinite;
         -webkit-animation: arrow-animation 2.5s ease-in-out infinite;
 }
@@ -21,7 +25,7 @@
     }    
     50% {
         transform: translate(20px, 25%);
-    }
+}
     75% {
         transform: translate(20px, -25%);
     }
@@ -35,8 +39,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 600px;
-    //animation: bg-animation 25s ease-in-out infinite;
+    // height: 600px;
+    height: 44vw;
     animation: bg-animation 15s ease-in-out infinite;
     -webkit-animation: bg-animation 15s ease-in-out infinite;
 }
@@ -49,8 +53,8 @@
         transform: translate(10px, -2%);
     }    
     50% {
-        transform: translate(10px, 2%);
-    }
+        transform: translate(10px, -2%);
+    }   
     75% {
         transform: translate(10px, -2%);
     }
@@ -69,11 +73,12 @@
         flex-direction: column;
         color: #fff;
         &_welcome{
-            font-size: 40px;
+            font-size: 3vw;
         }
         &_description{
-            font-size: 36px;
-            width: 829px;
+            font-size: 2.7vw;
+            // width: 829px;
+            width: 65vw;
             text-align: center;
             & span{
                 color: #7762D2;
@@ -82,14 +87,19 @@
             }
         }
         &_btn{
-            width: 209px;
-            height: 51px;
+            //width: 209px;
+            width: 15.7vw;
+            //height: 51px;
+            height: 3.8vw;
             background: #7762D2;
-            border-radius: 5px;
+            border-radius: 0.6vw;
+            //border-radius: 5px;
             color: #fff;
             border: none;
-            font-size: 24px;
-            margin-top: 91px;
+            //font-size: 24px;
+            font-size: 1.8vw;
+            //margin-top: 91px;
+            margin-top: 6.7vw;
             cursor: pointer;
             text-decoration: none;
             outline: none !important;
@@ -104,9 +114,12 @@
             position: absolute;
             bottom: 0;
             color: #fff;
-            font-size: 18px;
-            margin-bottom: 17px;
-            margin-left: 140px;
+            // font-size: 18px;
+            font-size: 1.3vw;
+            // margin-bottom: 17px;
+            margin-bottom: 1.35vw;
+            // margin-left: 140px;
+            margin-left: 10vw;
         }
     }
 }

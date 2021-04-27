@@ -1,25 +1,30 @@
 .whoIsI{
     &_layout{
         background-color: #2A2A2A;
-        padding-top: 1px;
-        padding-bottom: 1px;
+        // padding-top: 1px;
+        padding-top: 0.1vw;
+        // padding-bottom: 1px;
+        padding-bottom: 0.1vw
     }
     &_header{
         // font-family: Work Sans-400;
         width: 100%;
         text-align: center;
-        font-size: 48px;
+        font-size: 2.5vw;
         color: #fff;
-        margin-top: 75px;
+        // margin-top: 75px;
+        margin-top: 5.5vw;
     }
 }
 .privateRooms{
-    margin-top: 90px;
+    // margin-top: 90px;
+    margin-top: 6.6vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     & img{
-        max-width: 50%;
+        // max-width: 43%;
+        width: 43vw;
         transition: all .7s;
     }
 }
@@ -28,12 +33,14 @@
         width: 40%;
         color: #fff;
         &_title{
-            font-size: xx-large;
+            // font-size: xx-large;
+            font-size: 2.4vw;
             color: #fff;
         }
         &_text{
             color: #686464;
-            font-size: x-large;
+            // font-size: x-large;
+            font-size: 1.8vw;
         }
     }
 }

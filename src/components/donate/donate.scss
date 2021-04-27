@@ -6,7 +6,8 @@
     &_name{
         position: absolute;
         color: #fff;
-        font-size: 35px;
+        // font-size: 35px;
+        font-size: 2.7vw;
         // font-family: Work Sans-400;
         font-weight: 400;
         width: 80%;
@@ -24,21 +25,26 @@
         align-items: center;
         width: 80%;
         height: 10%;
-        border-radius: 5px;
+        // border-radius: 5px;
+        border-radius: 0.43vw;
         left: 10%;
         top: -10%;
         font-family: Roboto-400;
-        font-size: 20px;
-    }
+        //font-size: 20px;
+        font-size: 1.5vw;
+}
     &_title{
-        font-size: 40px;
+        // font-size: 40px;
+        font-size: 2.95vw;
         // font-family: Work Sans-400;
         font-weight: 400;
         color: #fff;
         text-align: center;
         margin: 0;
-        padding: 70px;
-        margin-bottom: 50px;
+        // padding: 70px;
+        padding: 5vw;
+        // margin-bottom: 50px;
+        margin-bottom: 3.7vw;
     }
     &_blocks{
         display: flex;
@@ -62,9 +68,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 0 7% 0 7%;
-        margin-top: 100px;
-        padding-bottom: 80px;
+        margin: 8% 7% 0 7%;
+        padding-bottom: 6vw;
         &_4 button:hover{
             color: #29B6F6;
             background-color: #fff;
@@ -76,17 +81,18 @@
     }
     &_block{
         position: relative;
-        width: 260px;
-        height: 450px;
+        width: 19vw;
+        height: 33vw;
         background-color: #75D773;
-        border-radius: 10px;
+        // border-radius: 10px;
+        border-radius: 0.7vw;
         color: #fff;
-        padding: 7px;
+        padding: 0.55vw;
         &_title{
             font-family: Roboto-400;
             font-weight: 400;
-            font-size: 22px;
-            margin: 30px 0 0 23px;
+            font-size: 1.6vw;
+            margin: 2.25vw 0 0 1.7vw;
         }
         &_price{
             width: 100%;
@@ -94,14 +100,15 @@
             & p{
                 font-family: Roboto-700;
                 font-weight: 500;
-                font-size: 35px;
+                // font-size: 35px;
+                font-size: 2.6vw;
                 margin: 0 0 0 10%;
             }
             & span{
                 font-family: Roboto-400;
                 font-weight: 300;
-                font-size: 21px;
-                margin: -5px 0 0 16px;
+                font-size: 1.5vw;
+                margin: -0.37vw 0 0 1.15vw;
             }
         }
         &_text{
@@ -109,14 +116,14 @@
                 font-family: Roboto-400;
                 max-width: 100%;
                 display: flex;
-                margin: 0 15px 0 15px;
+                margin: 0 1.1vw 0 1.1vw;
                 & img{
-                    width: 20px;
-                    margin: 5px;
+                    width: 1.46vw;
+                    margin: 0.37vw;
                 }
                 & p{
-                    font-size: 18px;
-                    margin-left: 15px;
+                    font-size: 1.33vw;
+                    margin-left: 1vw;
                 }
             }
         }
@@ -127,12 +134,15 @@
                 background: none;
                 color: #fff;
                 font-weight: 500;
-                font-size: 19px;
-                padding: 1px;
+                font-size: 1.4vw;
+                //padding: 1px;
+                padding: 0.08vw;
                 font-family: Roboto-700;
-                border: 2.5px solid #FFF;
+                //border: 2.5px solid #FFF;
+                border: 0.2vw solid #fff;
                 box-sizing: border-box;
-                border-radius: 7px;
+                // border-radius: 7px;
+                border-radius: 0.5vw;
                 display: flex;
                 text-align: center;
                 justify-content: center;
@@ -143,13 +153,7 @@
                 text-decoration: none;
                 outline: none !important;
                 transition: all .3s;
-            }
-        }
-    }
 }
-
-@media screen and (min-width: 1600px){
-    .donate_block{
-        width: 300px
+        }
     }
 }

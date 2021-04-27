@@ -5,20 +5,22 @@
         width: 100%;
         & hr{
             color: #3E3F41;
-            border: 2px solid #3E3F41;
+            // border: 2px solid #3E3F41;
+            border: 0.08vw solid #3E3F41;
         }
     }
     &_main{
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 30px 60px 0px 60px;
+        padding: 2vw 4.5vw 0 4.5vw;
         &_links{
             & p{
                 display: table;
                 // font-family: Work Sans-400;
                 font-weight: 400;
-                font-size: 20px;
+                // font-size: 20px;
+                font-size: 1.46vw;
                 cursor: pointer;
                 position: relative;
                 &::before{
@@ -26,7 +28,7 @@
                     position: absolute;
                     width: 100%;
                     transform: scaleX(0);
-                    height: 2px;
+                    height: 0.15vw;
                     bottom: 0;
                     left: 0;
                     background-color: #FBFDFF;
@@ -44,19 +46,19 @@
                 display: flex;
                 align-items: center;
                 font-family: Work Sans-700;
-                font-size: 36px;
+                font-size: 2.6vw;
                 font-weight: 700;
                 & img{
-                    margin-right: 15px;
-                    width: 73,78px;
-                    height: 60px;
+                    margin-right: 1vw;
+                    width: 5.5vw;
+                    height: 5.5vw;
                 }
             }
         }
         &_tech{
             &_title{
                 // font-family: Work Sans-700;
-                font-size: 36px;
+                font-size: 2.65vw;
                 font-weight: 600;
                 margin-bottom: 15%;
             }
@@ -64,15 +66,16 @@
         &_contacts{
             &_title{
                 // font-family: Work Sans-700;
-                font-size: 36px;
+                font-size: 2.65vw;
                 font-weight: 600;
             }
             &_icons{
                 display: flex;
                 justify-content: center;
                 & img{
-                    padding: 10px;
+                    padding: 0.75vw;
                     cursor: pointer;
+                    width: 2vw;
                     &:hover{
                         opacity: 0.5;
                     }
@@ -81,19 +84,20 @@
         }
     }
     &_add{
-        padding-bottom: 61px;
-        padding-top: 50px;
+        padding-bottom: 4.5vw;
+        padding-top: 4vw;
         display: flex;
         justify-content: center;
         & button{
             color: #fff;
             background-color: #7762D2;
-            border-radius: 5px;
-            width: 213px;
-            height: 67px;
-            // font-family: Work Sans-400;
+            // border-radius: 5px;
+            border-radius: 0.4vw;
+            width: 15.7vw;
+            height: 5vw;
+            //font-family: Work Sans-400;
             font-weight: 400;
-            font-size: 22px;
+            font-size: 1.6vw;
             border: none;
             cursor: pointer;
             outline: none !important;
@@ -106,11 +110,15 @@
         }
     }
     &_copyright{
-        padding-bottom: 40px;
+        // padding-bottom: 40px;
+        padding-bottom: 3vw;
         color: #615C5C;
-        font-size: 18px;
+        // font-size: 18px;
+        font-size: 1.33vw;
         font-family: Work Sans-400;
         display: flex;
         justify-content: center;
+        margin-block-end: 0;
+        margin-block-start: 0;
     }
 }
