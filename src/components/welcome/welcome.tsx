@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../header/header'
 import "./welcome.scss"
 import arrow from './../../assets/welcome/arrow.png'
+import { Link } from 'react-router-dom'
 
 const Welcome = () => {
     return(
@@ -13,7 +14,9 @@ const Welcome = () => {
                     <div className="dsBg_text_description">
                         Меня зовут <span>Eclipse!</span> Я создан для того, чтобы помочь вам в развитии вашего сервера
                     </div>
-                    <button className="dsBg_text_btn">Добавить!</button>
+                    <Link to="/dashboard">
+                        <button className="dsBg_text_btn">Добавить!</button>
+                    </Link>
                     <p className="dsBg_text_pss">Псс....чтобы узнать больше информации обо мне, листай вниз)</p>
                 </div>
             </div>

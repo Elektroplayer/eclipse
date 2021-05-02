@@ -1,68 +1,81 @@
 .header{
     &_layout{
-        margin: 0 60px 20px 60px;
+        margin: 0 4vw 1.5vw 4vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-}
-.logo{
-    display: flex;
-    align-items: center;
-    font-family: Work Sans-700;
-    &_title{
-        font-weight: 700;
-        // font-size: 30px;
-        font-size: 2.2vw;
-        color: #fff;
-        // margin-left: 15px;
-        margin-left: 9%;
-        cursor: pointer;
-    }
-    &_img{
-        // width: 63,78px;
-        width: 5vw;   
-        // height: 60px;
-        height: 5vw;
-        cursor: pointer;
-    }
-}
-.signIn{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    & img{
-        width: 2.5vw;
-    }
-    &_title{
-        // font-family: Spartan-700;
-        font-weight: 700;
-        // font-size: 24px;
-        font-size: 1.8vw;
-        color: #fff;
-        // margin-left: 6px;
-        margin-left: 5%;
+    &_logo{
         display: flex;
-        align-items: flex-end;
-        text-transform: uppercase;
-        display: table;
-        position: relative;
-        &::before{
-            content: '';
-            position: absolute;
-            width: 100%;
-            transform: scaleX(0);
-            // height: 2px;
-            height: 0.15vw;
-            bottom: 0;
-            left: 0;
-            background-color: #FBFDFF;
-            transform-origin: bottom center;
-            transition: all 0.5s ease-out;
+        align-items: center;
+        font-family: Work Sans-700;
+        &_title{
+            font-weight: 700;
+            // font-size: 30px;
+            font-size: 2.2vw;
+            color: #fff;
+            // margin-left: 15px;
+            margin-left: 9%;
+            cursor: pointer;
         }
-        &:hover::before{
-            transform: scaleX(1);
-            transform-origin: bottom center;
-        }  
+        &_img{
+            // width: 63,78px;
+            width: 5vw;   
+            // height: 60px;
+            height: 5vw;
+            cursor: pointer;
+        }
+    }
+    &_signIn{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        & img{
+            width: 2.5vw;
+        }
+        &_title{
+            // font-family: Spartan-700;
+            font-weight: 700;
+            // font-size: 24px;
+            font-size: 1.8vw;
+            color: #fff;
+            // margin-left: 6px;
+            margin-left: 5%;
+            display: flex;
+            align-items: flex-end;
+            text-transform: uppercase;
+            display: table;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                // height: 2px;
+                height: 0.15vw;
+                bottom: 0;
+                left: 0;
+                background-color: #FBFDFF;
+                transform-origin: bottom center;
+                transition: all 0.5s ease-out;
+            }
+            &:hover::before{
+                transform: scaleX(1);
+                transform-origin: bottom center;
+            }  
+        }
+    }
+    &_auth{
+        display: flex;
+        align-items: center;
+        & p{
+            color: #fff;
+            font-size: 2vw;
+            margin-right: 1vw;
+        }
+        & img{
+            width: 4.5vw;
+            height: 4.5vw;
+        }
     }
 }

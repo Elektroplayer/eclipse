@@ -5,21 +5,21 @@
         background: linear-gradient( -25deg, #2A2A2A, #2A2A2A 50%,#7762D2 50% );
     }
     &_arrow{
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
-        // margin-top: 40px;
         margin-top: 2.9vw;
         & img{
             height: 2.5vw;
         }
         animation: arrow-animation 2.5s ease-in-out infinite;
-        -webkit-animation: arrow-animation 2.5s ease-in-out infinite;
 }
 }
 @keyframes arrow-animation {
     0% {
         transform: translate(20px, 25%);
-    }
+}
     25% {
         transform: translate(20px, -25%);
     }    
@@ -34,6 +34,8 @@
     }    
 }
 .dsBackground{
+    width: 90%;
+    margin: 0 auto;
     background-image: url("./../../assets//welcome/dsBackground.svg");
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background-repeat: no-repeat;
@@ -42,7 +44,6 @@
     // height: 600px;
     height: 44vw;
     animation: bg-animation 15s ease-in-out infinite;
-    -webkit-animation: bg-animation 15s ease-in-out infinite;
 }
 
 @keyframes bg-animation {

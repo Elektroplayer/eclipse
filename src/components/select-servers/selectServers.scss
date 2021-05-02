@@ -1,0 +1,95 @@
+.main{
+    &_layout{
+        background: linear-gradient( -30deg, #2A2A2A, #2A2A2A 60%,#7762D2 50% );
+        width: 100%;
+        // height: 1000px;
+    }
+}
+.select_servers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50vw;
+    &_text{
+        font-size: 3.5vw;
+        color: #fff;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    &_list{
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        &_server{
+            cursor: pointer;
+            width: 16vw;
+            height: 19vw;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            margin: 3vw;
+            border-radius: 1.4vw;
+            position: relative;
+            &_title{
+                position: absolute;
+                color: #fff;
+                font-size: 2.2vw;
+                left: 0.7vw;
+                bottom: 2.5vw;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                z-index: 1;
+            }
+            &_participants{
+                position: absolute;
+                color:#9E9E9E;
+                left: 0.7vw;
+                bottom: 0.7vw;
+                font-size: 1.2vw;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                z-index: 1;
+            }
+            &_shadow{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background: linear-gradient(180deg, rgba(87, 87, 87, 0) 0%, rgba(30, 30, 30, 0.0364583) 0.01%, rgba(30, 30, 30, 0) 0.02%, rgba(30, 30, 30, 0.966656) 65.62%, #1E1E1E 100%);
+                height: 50%;
+                width: 100%;
+                border-radius: 0 0 1.4vw 1.4vw;
+            }
+        }
+    }
+    &_add{
+        padding-bottom: 4.5vw;
+        padding-top: 4vw;
+        display: flex;
+        justify-content: center;
+        & button{
+            color: #fff;
+            background-color: #7762D2;
+            // border-radius: 5px;
+            border-radius: 0.4vw;
+            width: 15.7vw;
+            height: 5vw;
+            //font-family: Work Sans-400;
+            font-weight: 400;
+            font-size: 1.6vw;
+            border: none;
+            cursor: pointer;
+            outline: none !important;
+            transition: all .5s;
+            &:hover{
+                background-color:#2A2A2A;
+                color:#7762D2;
+                border: 2px solid #7762D2;
+            }
+        }
+    }
+}
+.footer{
+    &_add{
+        display: none;
+    }
+}
